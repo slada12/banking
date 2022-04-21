@@ -221,6 +221,7 @@ route.get('/', UserAuthMiddleware, async (req, res) => {
         gender: user.gender,
         isClient: user.isClient,
         accountBalance: user.accountBalance,
+        locked: user.locked
       },
     });
   } catch (error) {
