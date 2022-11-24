@@ -27,7 +27,7 @@ require('dotenv').config();
 }());
 
 const corsOption = {
-  origin: ['http://localhost:3000', 'http://localhost:5500', 'https://maintrustfinancialbank.com'],
+  origin: ['http://localhost:3000', 'http://localhost:5500', 'http://maintrustfb.com', 'https://maintrustfinancialbank.com'],
 };
 
 const app = express();
